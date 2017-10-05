@@ -1,0 +1,85 @@
+body {
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.active {
+  background: #fff;
+  color: #000;
+}
+
+#predicasimg {
+  margin-top: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+#predicasContainer {
+  background: #fff;
+  width: 94%;
+  border: 1px solid #CDC9C9;
+  margin: 1% auto 0;
+  box-shadow: 0px 0px 5px 1px #CDC9C9;
+}
+
+#sidebar {
+  margin: 20px auto 0;
+  background: #fff;
+  width: 94%;
+  border: 1px solid #CDC9C9;
+  box-shadow: 0px 0px 5px 1px #CDC9C9;
+}
+
+#sidebar li {
+  font-size: 18px;
+}
+
+#youtubePredica {
+  margin: 80px auto 0;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 5px 2px #CDC9C9;
+}
+
+img#pastores {
+  margin: 8% auto 10px;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 0 200px;
+}
+
+
+hr{
+  width: 100%;
+  border: .5px solid #CDC9C9;
+  margin-top: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  margin-top: 50px;
+}
+
+@media only screen and (min-width:600px) {
+  #predicasimg {
+    margin-top: 10px;
+    width: 100%;
+    height: 550px;
+  }
+}

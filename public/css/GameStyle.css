@@ -1,0 +1,121 @@
+Body {
+  background-color: #546383;
+}
+
+
+.Container {
+  -webkit-perspective: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.FlashCard {
+  width: 300px;
+  height: 400px;
+  background-color: #1D263A;
+  border: solid 10px black;
+  border-radius: 15px;
+  margin-top: -200px;
+  margin-left: -150px;
+
+  transition: transform .6s ease;
+  -webkit-transform-style: preserve-3d;
+
+}
+
+.FlashCard:active {
+  -webkit-transform: rotateY(180deg);
+}
+
+.FlashCard header hr {
+  border: solid 4px black;
+  margin-top: 25px;
+}
+
+
+.FlashCard #text {
+  text-align: center;
+  margin-top: 140px;
+  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.FlashCard #CardTitle {
+  color: #fff;
+  font-size: 23px;
+  line-height: 0;
+  padding-left: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+
+
+}
+
+.front, .back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back {
+  width: 300px;
+  height: 400px;
+  transform: rotateY(180deg);
+}
+
+.Button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#nextButton {
+  margin-top: 300px;
+  margin-left: -115px;
+  background: -webkit-linear-gradient( #fff,#6B6A6A);
+
+
+
+  font-size: 22px;
+  font-family: Verdana, Geneva, sans-serif;
+  border-radius: 5px;
+  border: solid 1px #1D2534;
+  padding: 3px;
+}
+
+#nextButton:hover {
+  box-shadow: 0px 10px 4px -2px #000;
+  margin-top: 299px;
+}
+
+#nextButton:active {
+  margin-top: 301px;
+  background: -webkit-linear-gradient(#6B6A6A, #fff);
+  box-shadow: none;
+}
+
+#endButton {
+  margin-top: 300px;
+  margin-left: 40px;
+  background: -webkit-linear-gradient( #fff,#6B6A6A);
+
+
+  font-size: 22px;
+  font-family: Verdana, Geneva, sans-serif;
+  border-radius: 5px;
+  border: solid 1px #1D2534;
+  padding: 3px;
+}
+
+#endButton:hover {
+  box-shadow: 0px 10px 4px -2px #000;
+  margin-top: 299px;
+}
+
+#endButton:active {
+  margin-top: 301px;
+  background: -webkit-linear-gradient(#6B6A6A, #fff);
+  box-shadow: none;
+}

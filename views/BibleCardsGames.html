@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/GameStyle.css" rel="stylesheet" type="text/css">
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>BibleCards</title>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="FlashCard"><!-- flashcard cointains 2 div elements stacked using absolute-->
+        <div class="front">
+          <header><p id="CardTitle">Pregunta:</p><hr></header>
+          <div id="text">
+            <p>Cuantos dias duro el diluvio?</p>
+          </div>
+        </div> <!-- front end-->
+
+        <div class="back">
+          <header><p id="CardTitle">Respuesta:</p><hr></header>
+          <div id="text">
+            <p>40 dias</p>
+          </div>
+        </div> <!-- back end-->
+      </div> <!-- FlashCard end-->
+    </div><!-- Container end-->
+
+    <input type="submit" value="Siguiente" id="nextButton" class="Button">
+    <input type="submit" value="Finalizar" id="endButton" class="Button">
+
+  </body>
+</html>
